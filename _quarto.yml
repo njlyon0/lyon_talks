@@ -9,19 +9,24 @@ website:
   repo-url: https://github.com/njlyon0/lyon_talks
   repo-actions: [issue]
   navbar:
-    left:
-      - text: "LTER"
-        href: home_lter.qmd
-      - text: "Tutorials"
-        href: home_tutorials.qmd
     right:
       - text: "Profile"
         href: https://njlyon0.github.io/
       - icon: github
         href: https://github.com/njlyon0/lyon_talks
         aria-label: GitHub
+  sidebar:
+    style: docked
+    collapse-level: 2
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "2022-20xx"
+        contents:
+          - text: "LTER Talks"
+            href: lter.qmd
   page-footer:
-    center: "Copyright 2024, Nicholas J Lyon"
+    center: "Copyright &copy; 2026, Nicholas J Lyon"
 
 execute:
   freeze: auto

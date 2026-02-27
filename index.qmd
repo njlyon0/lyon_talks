@@ -1,16 +1,9 @@
 ---
 title: "Site Home"
-format: html
 ---
-
-## Overview
 
 This website (and the repository that supports it) are a convenient mechanism for (A) sharing LTER-associated presentations, (B) standardizing formatting conventions of those talks, and (C) incentivizing me to engage more deeply with Quarto presentations.
 
-## LTER Talks
+## {{< fa compass >}} Navigating this Website
 
-During my work at the Long Term Ecological Research (LTER) Network Office I had the opportunity to give some presentations on various facets of my work. Those that are not designed collaboratively are hosted here! For more information about the LTER Network, check out the website [lternet.edu](https://lternet.edu/).
-
-## Tutorials
-
-I occasionally get invited to present tutorials of specific data science skills. Previously I had housed these tutorials in standalone {{< fa brands github >}} GitHub repositories but now that this website exists it seems like a nice opportunity to do some consolidation (for ease of future maintenance).
+See the entries in the sidebar for talks grouped by my affiliation when giving the presentation.
